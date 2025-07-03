@@ -17,6 +17,8 @@ This template provides a minimal, unopinionated Angular application setup that's
 To start the development server:
 
 ```bash
+npm run dev
+# or
 npm start
 ```
 
