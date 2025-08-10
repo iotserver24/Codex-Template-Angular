@@ -9,5 +9,5 @@ import { HelloComponent } from './hello/hello.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'dyad-angular-template';
+  title = 'codex-angular-template';
 }
