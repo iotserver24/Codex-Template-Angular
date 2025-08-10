@@ -1,6 +1,6 @@
 /**
- * Angular Webpack Component Tagger for Dyad.sh
- * Adds data-dyad-id and data-dyad-name attributes to Angular components
+ * Angular Webpack Component Tagger for Codex
+ * Adds data-codex-id and data-codex-name attributes to Angular components
  * Compatible with Angular's AOT compilation and Ivy renderer
  */
 
@@ -59,8 +59,8 @@ class AngularComponentTagger {
                   
                   // Insert data attributes after the element start
                   const dataAttributes = `
-                    ɵɵattribute("data-dyad-id", "${filePath}:0:0");
-                    ɵɵattribute("data-dyad-name", "${componentName}");
+                      ɵɵattribute("data-codex-id", "${filePath}:0:0");
+  ɵɵattribute("data-codex-name", "${componentName}");
                   `;
                   
                   return elementStart + ';' + dataAttributes;
@@ -76,8 +76,8 @@ class AngularComponentTagger {
                   const filePath = filePathMatch ? filePathMatch[1].replace(/\\/g, '/') + '.ts' : pathname;
                   
                   // Add data attributes if not already present
-                  if (!attributes.includes('data-dyad-id')) {
-                    return `<${tagName} data-dyad-id="${filePath}:0:0" data-dyad-name="${componentName}"${attributes}>`;
+                      if (!attributes.includes('data-codex-id')) {
+      return `<${tagName} data-codex-id="${filePath}:0:0" data-codex-name="${componentName}"${attributes}>`;
                   }
                 }
                 return match;

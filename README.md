@@ -1,10 +1,10 @@
-# Dyad Angular Template
+# Codex Angular Template
 
-A minimal Angular template for Dyad.sh - a clean starting point for building Angular applications.
+A minimal Angular template for Codex - a clean starting point for building Angular applications.
 
 ## Overview
 
-This template provides a minimal, unopinionated Angular application setup that's fully compatible with Dyad.sh's JavaScript-based environment. It includes:
+This template provides a minimal, unopinionated Angular application setup that's fully compatible with Codex's JavaScript-based environment. It includes:
 
 - Latest stable Angular (v17)
 - TypeScript support
@@ -62,4 +62,4 @@ src/
 
 ## License
 
-This template is open source and available for use in your Dyad.sh projects.
+This template is open source and available for use in your Codex projects.

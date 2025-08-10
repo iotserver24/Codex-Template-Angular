@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <div class="hello">
       <h2>Hello Component</h2>
-      <p>This is an example component to demonstrate Dyad.sh Select UI to Edit feature.</p>
+      <p>This is an example component to demonstrate Codex Select UI to Edit feature.</p>
     </div>
   `,
   styles: [`

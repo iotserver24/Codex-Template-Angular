@@ -74,9 +74,9 @@ The application follows Angular's component-based architecture:
 - Use trackBy functions in @for loops
 - Optimize bundle size with tree shaking
 
-## Dyad.sh Compatibility
+## Codex Compatibility
 
-This template is optimized for Dyad.sh environment:
+This template is optimized for Codex environment:
 - Minimal dependencies
 - Fast development server startup
 - Efficient production builds
